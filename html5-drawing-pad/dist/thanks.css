@@ -1,0 +1,28 @@
+html {
+    background-color: #A0EC24;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('typefaces/NexaDemo-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TigerShrimp';
+    src: url("typefaces/TigerShrimp_Round.woff") format("woff");
+}
+
+body {
+	font-family: 'Nexa', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+
+h1 {
+    color: #8E5AE3;
+    font-size: 4vw;
+    position: absolute;
+    top: 2vh;
+    left: 4vw;
+}
